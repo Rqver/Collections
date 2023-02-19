@@ -1,6 +1,16 @@
 // Import external libraries
 const prompt = require('prompt-sync')();
 
+// Object
+let multiDimensionalObject = {
+    firstNames: {
+        male: ["John", "Liam", "Noah"], female: ["Emma", "Ava", "Olivia"]
+    }, lastNames: ["Smith", "Johnson", "Jackson"]
+}
+
+// Access various parts of the object
+console.log(multiDimensionalObject.firstNames.male[0])
+
 // Array of strings
 let stringArray = ['ABC', 'DEF', 'GHI', 'JKL', 'MNO', 'PQR', 'STU', 'VWX', 'ZY0', '123', '456', '789']
 
